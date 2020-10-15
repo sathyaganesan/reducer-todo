@@ -1,7 +1,7 @@
 export const initialState = {
     todos: [
         {
-            item: 'Learn about reducers',
+            item: '',
             completed: false,
             id: 3892987589  
         }

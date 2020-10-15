@@ -37,7 +37,44 @@
   }
 }
 
+.app-div {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #1bb7e2;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+  color: #810262;
+}
+
 .completed {
   color: red;
   text-decoration: line-through;
+}
+
+.todo-item {
+  color: #9a2af5;
+  font-size: medium;
+  text-align: center;
 }

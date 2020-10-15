@@ -13,7 +13,7 @@ export const Todo = (props) => {
         <div className={`todo ${props.todoAttr.completed ? "completed" : ""}`}
         onClick={()=> togglefcn(props.todoAttr.id)}>
             {/* Item from state  */}
-            <p>{props.todoAttr.item}</p>
+            <p className = "todo-item">{props.todoAttr.item}</p>
         </div>
     )
 }

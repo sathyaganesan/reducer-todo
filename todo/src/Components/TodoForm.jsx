@@ -27,12 +27,15 @@ export const TodoForm = (props) => {
     return (
         <form>
             <input
-            type="text"
-            name="newTodoItem"
-            value={newTodoItem}
-            onChange={onChangeHandler} />
-            <button onClick={addTodofcn}>Add Todo</button>
-            <button onClick={deletefcn}>Clear Item</button>
+                type="text"
+                name="newTodoItem"
+                value={newTodoItem}
+                onChange={onChangeHandler} />
+            <div>
+                <button onClick={addTodofcn}>Add Todo</button>
+                <button onClick={deletefcn}>Clear Item</button>
+            </div>
+            
         </form>
     )
 }
